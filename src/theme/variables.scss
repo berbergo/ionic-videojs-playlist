@@ -22,7 +22,8 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+$toolbar-background: #3f51b5;
+$toolbar-active-color: #fff;
 
 
 // Named Color Variables
@@ -34,7 +35,7 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #3f51b5,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -86,3 +87,9 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+// Video.js
+// --------------------------------------------------
+
+@import "video-js";

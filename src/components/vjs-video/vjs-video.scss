@@ -1,0 +1,18 @@
+vjs-video {
+  .vjs-previous-control,
+  .vjs-next-control {
+    font-family: VideoJS;
+    font-weight: normal;
+    font-style: normal;
+    &::before {
+      font-size: 1.8em;
+      line-height: 1.67;
+    }
+  }
+  .vjs-previous-control::before {
+    content: '\f120';
+  }
+  .vjs-next-control::before {
+    content: '\f11f';
+  }
+}
